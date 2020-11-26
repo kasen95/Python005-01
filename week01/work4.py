@@ -5,7 +5,7 @@ import time
 
 
 def test():
-    # log_path = os.path.join('/Users/shaojiacheng/python-' + time.strftime('%Y-%m-%d', time.localtime(time.time())),'test.log')
+    #log_path = os.path.join('/Users/kasen/python-' + time.strftime('%Y-%m-%d', time.localtime(time.time())),'test.log')
     log_path = os.path.join('/var/log/python-' + time.strftime('%Y-%m-%d', time.localtime(time.time())), 'test.log')
     parent_path = os.path.abspath(os.path.join(log_path, '..')) + '/'
     # 需先获取该目录下写入权限，这种方式还是获取不了。使用注释的目录正常
